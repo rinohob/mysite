@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mysite.ui.content" />
+        <module name="mysite.ui.apps" />
+        <module name="com.adobe.cq.cloud.testing.ui.cypress.tests" />
+        <module name="mysite.ui.apps.structure" />
+        <module name="mysite.it.tests" />
+        <module name="mysite.core" />
+        <module name="mysite.all" />
+        <module name="mysite.ui.config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mysite.dispatcher.ams" target="11" />
+      <module name="mysite.ui.frontend.react.forms.af" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

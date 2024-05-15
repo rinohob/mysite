@@ -1,0 +1,21 @@
+<div class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="tb-contact">
+                    <p><i class="fas fa-envelope"></i>${properties.mail}</p>
+                    <p><i class="fas fa-phone-alt"></i>${properties.number}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="tb-menu" data-sly-list.page="${properties.nav}">
+                    <sly data-sly-use.contenobj="${page}/jcr:content" />
+                     <a href="${page}.html">${contentobj.jcr:title}</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

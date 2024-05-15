@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysite.core.listeners.ArticleEventHandiling">
+  <property name="event.topics" type="String" value="com/day/cq/replication"/>
+  <property name="event.filter" type="String" value="(&amp; (type=ACTIVATE) (paths=/content/mysite/us/en/*))"/>
+  <service>
+    <provide interface="org.osgi.service.event.EventHandler"/>
+  </service>
+  <reference name="mputilservice" interface="com.mysite.core.services.impl.mputilservice" field="mputilservice"/>
+  <implementation class="com.mysite.core.listeners.ArticleEventHandiling"/>
+</scr:component>
