@@ -6,7 +6,7 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 @Model(adaptables = Resource.class)
 public class artical {
-
+//lnijtngitnbitrniurubnitbntiubn
     @ValueMapValue
     private String text;
     @ValueMapValue
