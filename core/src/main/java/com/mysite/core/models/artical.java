@@ -8,7 +8,7 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 public class artical {
 //lnijtngitnbitrniurubnitbntiubn
 //    bifbkdfnbkjdfnbkjdfnbkknbkjdfnbijf
-
+//uydgciudysabiabgiurabhiuarviuasbniuewd
     @ValueMapValue
     private String text;
     @ValueMapValue
